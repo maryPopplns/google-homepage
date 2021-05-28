@@ -1,0 +1,282 @@
+.header {
+  font-family: arial;
+  font-size: 20px;
+  width: 100vw;
+  height: 90px;
+}
+
+.topLeft {
+  display: flex;
+  float: left;
+  margin: 36px 0px 0px 30px;
+}
+
+#about {
+  text-decoration: none;
+  padding-right: 30px;
+  color: black;
+}
+
+#about:hover {
+  text-decoration: underline;
+}
+
+#store {
+  text-decoration: none;
+  color: black;
+}
+
+#store:hover {
+  text-decoration: underline;
+}
+
+.topRight {
+  display: flex;
+  float: right;
+  margin: 36px 30px 0px 0px;
+}
+
+.mailImages {
+  margin-right: 30px;
+}
+
+#gmail {
+  text-decoration: none;
+  padding-right: 30px;
+  color: black;
+}
+
+#gmail:hover {
+  text-decoration: underline;
+}
+
+#images {
+  text-decoration: none;
+  color: black;
+}
+
+#images:hover {
+  text-decoration: underline;
+}
+
+.apps {
+  margin: -10px 20px;
+}
+
+#square {
+  height: 45px;
+  width: 45px;
+  /* padding-bottom: 30px; */
+}
+
+.bluebox {
+  padding: 15px 20px 15px 20px;
+  margin-top: -15px;
+  background: rgb(70, 117, 218);
+  border-radius: 4%;
+  color: white;
+}
+
+.bluebox:hover {
+  background: rgb(31, 113, 101);
+}
+
+#signIn {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  min-height: calc(100vh - 150px);
+}
+
+.google {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 100px;
+  font-size: 110px;
+  font-family: sans-serif;
+}
+
+.g {
+  color: rgb(78, 127, 232);
+}
+
+.red {
+  color: red;
+}
+
+#oo {
+  color: orange;
+}
+
+#l {
+  color: rgb(62, 162, 29);
+}
+
+.search {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  /* justify-content: center; */
+  width: 100vw;
+}
+
+#bar {
+  border: solid 1px;
+  border-radius: 10em;
+  border-color: rgb(211, 211, 211);
+  width: 700px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#inputBar {
+  border: none;
+  outline: none;
+  width: 600px;
+  margin-left: -650px;
+}
+
+.submitButtons {
+  margin-top: 50px;
+}
+
+#inputSubmit {
+  font-size: 18px;
+  border: solid transparent;
+  padding: 15px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  /* border: solid rgb(210, 210, 210); */
+}
+
+#inputSubmit:hover {
+  padding: 14px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5%;
+}
+
+#lucky {
+  font-size: 18px;
+  border: solid transparent;
+  padding: 15px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  /* border: solid rgb(210, 210, 210); */
+}
+
+#lucky:hover {
+  padding: 14px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(240, 240, 240);
+}
+
+.leftFooter {
+  padding: 20px;
+  display: flex;
+}
+
+#advertising {
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#advertising:hover {
+  padding: 0px 20px 0px 20px;
+  text-decoration: underline;
+}
+
+#business {
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#business:hover {
+  padding: 0px 20px 0px 20px;
+  text-decoration: underline;
+}
+
+#works {
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#works:hover {
+  padding: 0px 20px 0px 20px;
+  text-decoration: underline;
+}
+
+.centerFooter {
+  padding: 20px;
+  display: flex;
+}
+
+#leaf {
+  height: 20px;
+  width: 250x;
+}
+
+#nuetral {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#nuetral:hover {
+  text-decoration: underline;
+}
+
+.rightFooter {
+  padding: 20px;
+  display: flex;
+}
+
+#privacy {
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#privacy:hover {
+  padding: 0px 20px 0px 20px;
+  text-decoration: underline;
+}
+
+#terms {
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#terms:hover {
+  padding: 0px 20px 0px 20px;
+  text-decoration: underline;
+}
+
+#settings {
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#settings:hover {
+  padding: 0px 20px 0px 20px;
+  text-decoration: underline;
+}

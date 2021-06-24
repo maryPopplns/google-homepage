@@ -1,1 +1,1 @@
-- landing page for a website
+- gained experience with the basics of css.
